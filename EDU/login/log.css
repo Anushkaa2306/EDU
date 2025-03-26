@@ -86,6 +86,7 @@ h2 {
 .button{
     margin-right: 20vh;
     box-shadow: 0px 4px 10px rgba(130, 154, 240, 0.7);
+    margin-left: 15vh;
 }
 .button:hover{
     border: 2px solid black;
@@ -220,6 +221,9 @@ input, select {
 input::placeholder {
     color: rgb(52, 51, 51);
 }
+#word{
+    margin-top: 30px;
+}
 
 label{
 color: #0a0c0f;
@@ -237,7 +241,8 @@ color: #0a0c0f;
     margin-top: 5vh;
     background-color: #e4e5ebe0;
 margin-right: 30px;
-height:100vh ;
+height:50vh ;
+width: 70vh;
 box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.7);
 }
 #country{
@@ -252,7 +257,7 @@ box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.7);
     box-shadow: 0px 4px 10px  rgba(130, 154, 240, 0.7);
 }
 #email{
-    width: 40vh;
+    width: 60vh;
     margin-right: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px  rgba(130, 154, 240, 0.7);
@@ -265,36 +270,10 @@ box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.7);
     box-shadow: 0px 4px 10px  rgba(130, 154, 240, 0.7);
     
 }
-a{
-    color: #007bff;
-}
-.page{
-    gap: 4;
-}
 
-#last{
-    width: 40vh;
-    margin-left: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px  rgba(130, 154, 240, 0.7);
-}
 #pass{
-    width: 40vh;
+    width: 60vh;
     border-radius: 10px;
     box-shadow: 0px 4px 10px  rgba(130, 154, 240, 0.7);
 }
-#language{
-    width: 20vh;
-}
-#mail{
-    margin-top: 40px;
 
-}
-#cl{
-    margin-top: 40px; 
-    border-radius: 10px;
-  
-}
-#cou{
-    margin-top: 40px;
-}
