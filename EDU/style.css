@@ -28,9 +28,9 @@ section {
 }
 
 /* Background Blur Effect */
-.background { background: url('https://epe.brightspotcdn.com/dims4/default/9c36d5d/2147483647/strip/true/crop/2956x2006+44+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.us-east-1.amazonaws.com%2Ffe%2F76%2Fc5f43ff4413aa22153fdc121a1f4%2Fai-robot-learning-082023-1497617002-01.jpg')
-        no-repeat center center/cover;
-   
+ .background {/* background: url('https://epe.brightspotcdn.com/dims4/default/9c36d5d/2147483647/strip/true/crop/2956x2006+44+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.us-east-1.amazonaws.com%2Ffe%2F76%2Fc5f43ff4413aa22153fdc121a1f4%2Fai-robot-learning-082023-1497617002-01.jpg')
+        no-repeat center center/cover; */
+        background: linear-gradient(to right, #007bff, #00c853);
     /* background: linear-gradient(to right, #007bff, #00c853); */
     position: absolute;
     top: -20px;
